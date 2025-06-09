@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+    .flag{
+      background-color:rgb(206, 17, 38);
+      width: 900px;
+      height: 600px;
+      position: relative;
+    }
+
+    .flag > p{
+      color: white;
+      text-align: center;
+
+    }
+
+    .flag > div{
+      background-color:rgb(0, 40, 104);
+      position: absolute;
+      height: 300px;
+      width: 100%;
+      top: 150px;
+    }
+
+    .flag div > div{
+      background-color: white;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50px;
+      left: 350px;
+    }
+
+     p {
+      font-size: 5rem;
+      color: white;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    .flag > div div p{
+      color: black;
+    }
+
+
+
+  </style>
+</head>
+
+<!-- 
+  IMPORTANTE! Não altere nenhum HTML
+  Não adicione nenhuma classe/id/elemento
+  Use o que você sabe sobre combinação de seletores 
+  e especificidade em CSS.
+  Dica 1: A bandeira tem 900px de largura por 600px de altura, e o círculo tem 200px por 200px.
+  Dica 2: Você pode usar a inspeção de CSS para obter as cores de
+  https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
