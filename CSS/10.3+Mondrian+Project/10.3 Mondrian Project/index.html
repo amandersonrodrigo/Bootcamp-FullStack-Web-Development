@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mondrian Project</title>
+  <title>Projeto Mondrian</title>
   <style>
     /* 
     Write your CSS here 
@@ -19,11 +19,78 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
+    
+    
+    .container{
+      display: grid;
+      height: 748px;
+      width: 748px;
+      grid-template-columns: 320px 198px 153px 50px ;
+      grid-template-rows: 414px 130px 155px 22px;
+      background-color: #000;
+      gap: 9px;
+    }
+
+    .items1{
+      background-color:#E72F24 ;
+    }
+
+    .items2{
+      background-color:#F0F1EC ;
+      grid-column: 2 / 5;
+    }
+
+    .items3{
+      background-color: #F0F1EC;
+      grid-row: 2 / 4;
+      grid-column: 1 / 2;
+    }
+
+    .items4{
+      background-color: #F0F1EC;
+      grid-row: 2 / 4;
+      grid-column: 2 / 4;
+    }
+
+    .items5{
+      background-color:#004592;
+      border-bottom: solid black 10px;
+    }
+
+    .items6{
+      background-color: #F0F1EC;
+      grid-row: 3 / 5;
+    }
+
+    .items7{
+      background-color: #F0F1EC;
+    }
+
+    .items8{
+      background-color:#F9D01E ;
+    }
+
+    .items9{
+      background-color:#232629 ;
+    }
+
   </style>
 </head>
 
 <body>
   <!-- Write your HTML here -->
+   <div class="container">
+      <div class="items1"></div>
+      <div class="items2"></div>
+      <div class="items3"></div>
+      <div class="items4"></div>
+      <div class="items5"></div>
+      <div class="items6"></div>
+      <div class="items7"></div>
+      <div class="items8"></div>
+      <div class="items9"></div>
+   </div>
+
 </body>
 
 </html>
