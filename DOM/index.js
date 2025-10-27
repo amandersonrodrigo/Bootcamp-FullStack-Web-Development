@@ -9,3 +9,4 @@ document.querySelector("ul li a").style.color = "green"
 document.querySelector(".botao").style.backgroundColor = "yellow"
 
 document.querySelector("#titulo").classList.add("huge")
+
